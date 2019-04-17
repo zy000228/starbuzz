@@ -10,6 +10,20 @@ body {
   margin:           10px 10px 10px 10px;
   height:           108px;
 }
+ #p1{
+  display: inline-block;
+  background-image: url("images/header.gif");
+  width: 400px;
+  height: 108px; 
+}
+ #p2{
+  float: right;
+  display: inline-block;
+  background-image: url("images/header.gif");
+  background-position: -400px 108px;
+  width: 400px;
+  height: 108px;
+} 
 
 #main {
   display: table-cell;
